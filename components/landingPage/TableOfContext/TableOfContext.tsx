@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-export default function TableOfContext({}: Props) {
+export default function TableOfContext() {
   const [list, setList] = React.useState<boolean>(true);
   const listData = [
     {
@@ -96,9 +95,9 @@ export default function TableOfContext({}: Props) {
         }  lg:max-w-[440px] rounded-b-lg duration-300 ease-in-out overflow-hidden`}
       >
         <ul className="md:text-xl text-lg md:leading-[30px] underline text-[#5F27BD] pl-10 py-[10px] pr-5 list-disc  space-y-5">
-          {listData.map((i) => {
+          {listData.map((i,index) => {
             return (
-              <li>
+              <li key={`${index}-list-data`}>
                 <a href={i.link}>{i.title}</a>
               </li>
             );

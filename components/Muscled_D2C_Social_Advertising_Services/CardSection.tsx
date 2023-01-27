@@ -69,8 +69,9 @@ const CardSection = () => {
                 <CardContent className="space-y-11">
                   {cardItem &&
                     cardItem.iconItems.map(
-                      (item) => (
+                      (item, i) => (
                         <IconItem
+                          key={`childitem-${i}`}
                           icon={<FaCheckCircle size={24} />}
                           title={item?.iconTitle}
                           className={item?.class}

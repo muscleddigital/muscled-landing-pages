@@ -22,9 +22,10 @@ export default function FAQ() {
         FAQs about ecommerce PPC management services.
       </h2>
       <div className="space-y-5 mt-5">
-        {questionCardData.map((i) => {
+        {questionCardData.map((i, index) => {
           return (
             <QuestionCard
+              key={`${index}-question`}
               question={i.question}
               ptag={i.answer}
               height={i.height}

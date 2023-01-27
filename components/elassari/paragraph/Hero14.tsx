@@ -15,7 +15,6 @@ const Hero14: NextPage<IProps> = ({
   className,
   title,
   desc,
-  children,
   HeroIcon,
 }) => {
 
@@ -27,14 +26,14 @@ const Hero14: NextPage<IProps> = ({
         <ExtractRoutes />
         <h1 className="my-5 leading-[72.8px] text-[56px]">{title}</h1>
         <p className="text-xl font-normal leading-[38.9px] mb-[30px]">{desc}</p>
-        <div className="flex flex-start">
-          {/* @ts-ignore */}
-          {children.map((item: JSX.Element, idx: number) => (
+        {/* <div className="flex flex-start">
+          
+          {children?.map((item: JSX.Element, idx: number) => (
             <div key={title + idx.toString()} onClick={() => console.log(idx)}>
               {item}
             </div>
           ))}{" "}
-        </div>
+        </div> */}
       </div>
       <HeroIcon className="w-[436px]" />
     </div>

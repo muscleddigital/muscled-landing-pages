@@ -18,7 +18,7 @@ const Button = ({
   borderColorClass = "border-black",
   children,
 }: ButtonProp) => {
-  let buttonClass = outlined
+  const buttonClass = outlined
     ? `${bgColor ? bgColor : "bg-tranparent"}  ${textColor}`
     : `${bgColor ? bgColor : "bg-black"} text-white`;
   return (

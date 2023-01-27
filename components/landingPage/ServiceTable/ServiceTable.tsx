@@ -1,9 +1,8 @@
 import React from "react";
 import { Table, Td, Th } from "./Table/index";
-import { AiFillPhone, AiFillStar, AiOutlineCheck } from "react-icons/ai";
-type Props = {};
+import { AiFillPhone } from "react-icons/ai";
 
-export default function ServiceTable({}: Props) {
+export default function ServiceTable() {
 	return (
 		<>
 			<div className="text-center mt-[120px] mb-[120px] px-5 md:px-10 lg:px-20 mx-auto  container">

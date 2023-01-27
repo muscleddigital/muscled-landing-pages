@@ -4,32 +4,32 @@ import ExtractRoutes from "@/components/ExtractRoutes";
 import HeroCards from "./HeroCards";
 
 function Hero() {
-	const cardData = [
-		{
-			icon: "funnel",
-			pTag: "Access the data-fueled plans behind",
-			numbers: "$3,021,182,299",
-			subHeading: "IN CLIENT REVENUE",
-		},
-		{
-			icon: "people",
-			pTag: "Use the expert-led tactics behind",
-			numbers: "7,839,684",
-			subHeading: "IN LEADS FOR OUR CLIENTS",
-		},
-		{
-			icon: "trophy",
-			pTag: "Unlock do-it-for-me marketing with",
-			numbers: "450",
-			subHeading: "DIGITAL MARKETING EXPERTS",
-		},
-		{
-			icon: "roi",
-			pTag: "Accelerate ROI with",
-			numbers: "1+ BILLION",
-			subHeading: "DATA POINTS FROM MARKETINGCLOUDFX",
-		},
-	];
+	// const cardData = [
+	// 	{
+	// 		icon: "funnel",
+	// 		pTag: "Access the data-fueled plans behind",
+	// 		numbers: "$3,021,182,299",
+	// 		subHeading: "IN CLIENT REVENUE",
+	// 	},
+	// 	{
+	// 		icon: "people",
+	// 		pTag: "Use the expert-led tactics behind",
+	// 		numbers: "7,839,684",
+	// 		subHeading: "IN LEADS FOR OUR CLIENTS",
+	// 	},
+	// 	{
+	// 		icon: "trophy",
+	// 		pTag: "Unlock do-it-for-me marketing with",
+	// 		numbers: "450",
+	// 		subHeading: "DIGITAL MARKETING EXPERTS",
+	// 	},
+	// 	{
+	// 		icon: "roi",
+	// 		pTag: "Accelerate ROI with",
+	// 		numbers: "1+ BILLION",
+	// 		subHeading: "DATA POINTS FROM MARKETINGCLOUDFX",
+	// 	},
+	// ];
 	return (
 		<div className="bg-black bg-opacity-70">
 			<div className="xl:py-[100px] md:py-20 py-4  px-5 md:px-10 lg:px-20 xl:px-4 mx-auto container  xl:flex items-center justify-between">
